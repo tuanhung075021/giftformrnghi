@@ -1,6 +1,6 @@
 :root {
-  --bg: #fff8f0;
-  --accent: #d9480f;
+  --bg: #ffffff;
+  --accent: #2b80c5;
   --muted: #6b7280;
   --card: #fff;
   --shadow: 0 6px 20px rgba(15, 23, 42, 0.12);
@@ -191,19 +191,6 @@ header p {
   transform: translateY(-6px) rotate(-1deg);
 }
 
-/* little label / ribbon */
-.frame::after {
-  content: "";
-  position: absolute;
-  left: 12px;
-  top: 6px;
-  width: 12px;
-  height: 12px;
-  background: var(--accent);
-  border-radius: 2px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
-}
-
 /* Make frames look like hanging pictures with a small cord */
 .frame::before {
   content: "";
@@ -271,7 +258,7 @@ header p {
   border-radius: 10px;
   border: 0;
   cursor: pointer;
-  box-shadow: 0 6px 18px rgba(217, 70, 15, 0.18);
+  box-shadow: 0 6px 18px rgba(15, 92, 217, 0.18);
 }
 
 /* accessible focus */
