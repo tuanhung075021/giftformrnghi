@@ -14,7 +14,9 @@
   max-width: 20px;
   display: none;
 }
-
+.card {
+  text-align: justify;
+}
 body {
   margin: 0;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
